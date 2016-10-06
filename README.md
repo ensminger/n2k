@@ -6,7 +6,7 @@ Streamline site reviews, manage expectations, and keep your clients happy! Show 
 ## Concept
 N2K (Need to Know) is a little Wordpress plugin built for developers and builders who would like to let clients browse their sites-in-progress at certain presentable breakpoints, and hide it at others.
 
-As a developer, you will specify which viewports are currently "presentable" or not.  The plugin will use Javascript (jQuery) to detect the viewport width of a users device.  If the device is within a "unpresentable" or “hidden” range, the user will be shown a friendly error message with a recommendation to use a viewport that is presentable.
+As a developer, you will specify which breakpoints are currently "presentable" and which are not.  The plugin will compile custom media queries and inject them into the pages you specify.  If the device is within an "unpresentable" or “hidden” range, the user will be shown a friendly error message with a recommendation to use a viewport that is presentable.
 
 
 
@@ -19,8 +19,8 @@ Install it just as you would any other Wordpress Plugin. Add the plugin folder t
 - Install, activate; The plugin will add a settings page within WP Admin
 - Specify the pages on which to control visibility
 - Specify your site's breakpoints
-- Specify which breakpoints / device sizes should be visible or hidden
-- Choose a friendly error message, or write your own
+- Specify which of those breakpoints should be visible or hidden
+- Choose a friendly error message template, or write your own
 
 This plugin is ideal for developers who use a local development environment and deploy to a staging server for client review.  Activate this plugin on the staging site, not the local environment.
 
@@ -29,7 +29,7 @@ This plugin is ideal for developers who use a local development environment and 
 
 
 ## License
-_[TODO] Unsure how to license this plugin, actually.  Will need to do my homework on Wordpress licensing_ A copy of the license will be included in the root of the plugin’s directory as `LICENSE`.
+_[TODO] Unsure how to license this plugin, actually.  Will need to do my homework on Wordpress licensing._  A copy of the license will be included in the root of the plugin’s directory as `LICENSE`.
 
 
 
@@ -47,4 +47,4 @@ All additional code, comments, and opinions expressed in this plugin are either 
 
 --------------
 
-> NOTE: This plugin does not yet exist.  This README is the first test of its viability and potential usefulness.  Would you use a plugin like this?  Do you identify with the problem that it solves? How could it be better?  Tell me. phil@ensminger.io
+> NOTE: This plugin does not yet exist.  This README is the first test of its viability and potential usefulness.  Would you use a plugin like this?  Do you identify with the problem that it solves? How could it be better?  Tell me: phil@ensminger.io
